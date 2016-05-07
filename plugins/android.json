@@ -1,0 +1,18 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "at.fh.ims.pluginexample"
+        },
+        "at.fhj.ims": {
+            "PACKAGE_NAME": "at.fh.ims.pluginexample"
+        }
+    },
+    "dependent_plugins": {}
+}

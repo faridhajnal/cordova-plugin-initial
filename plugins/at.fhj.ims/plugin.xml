@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="at.fhj.ims"
+    version="0.1">
+    <name>APlugin</name>
+    <description>The a Plugin </description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,coolest</keywords>
+    <repo></repo>
+    <issue></issue>
+
+    <js-module src="www/APlugin.js" name="APlugin">
+        <clobbers target="APlugin" />
+    </js-module>
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="APlugin" >
+                <param name="android-package" value="APlugin"/>
+            </feature>
+        </config-file>
+        <source-file src="src/android/APlugin.java" target-dir="src/" />
+    </platform>
+
+</plugin>
